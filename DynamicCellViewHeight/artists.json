@@ -1,0 +1,44 @@
+{
+	artists:[
+		{
+			"name":"John Coltrane",
+			"image","coltrane.jpg",
+			"info","John William Coltrane (September 23, 1926 – July 17, 1967) was an American jazz saxophonist and composer. Working in the bebop and hard bop idioms early in his career, Coltrane helped pioneer the use of modes and was at the forefront of free jazz. He led at least fifty recording sessions and appeared on many albums by other musicians, including trumpeter Miles Davis and pianist Thelonious Monk. Over the course of his career, Coltrane's music took on an increasingly spiritual dimension. He remains one of the most influential saxophonists in music history."
+		},
+		{
+			"name":"Miles Davis",
+			"image","miles.jpg",
+			"info","Miles Dewey Davis III (May 26, 1926 – September 28, 1991) was an American jazz trumpeter, bandleader, and composer. He is among the most influential and acclaimed figures in the history of jazz and 20th-century music. Davis adopted a variety of musical directions in a five-decade career that kept him at the forefront of many major stylistic developments in jazz."
+		},
+		{
+			"name":"Ella Fitzgerald",
+			"image","ella.jpg",
+			"info","Ella Jane Fitzgerald (April 25, 1917 – June 15, 1996) was an American jazz singer, sometimes referred to as the First Lady of Song, Queen of Jazz, and Lady Ella. She was noted for her purity of tone, impeccable diction, phrasing, timing, intonation, and a horn-like improvisational ability, particularly in her scat singing."
+		},
+		{
+			"name":"Billie Holiday",
+			"image","billie.jpg",
+			"info","Eleanora Fagan (April 7, 1915 – July 17, 1959), professionally known as Billie Holiday, was an American jazz and swing music singer with a career spanning for 26 years. Nicknamed "Lady Day" by her friend and music partner Lester Young, Holiday had an innovative influence on jazz music and pop singing. Her vocal style, strongly inspired by jazz instrumentalists, pioneered a new way of manipulating phrasing and tempo. She was known for her vocal delivery and improvisational skills."
+		},
+		{
+			"name":"Charles Mingus",
+			"image","mingus.jpg",
+			"info","(April 22, 1922 – January 5, 1979) was an American jazz double bassist, pianist, composer and bandleader. A major proponent of collective improvisation, he is considered to be one of the greatest jazz musicians and composers in history,[1] with a career spanning three decades and collaborations with other jazz legends such as Louis Armstrong, Duke Ellington, Charlie Parker, Dizzy Gillespie, Dannie Richmond, and Herbie Hancock."
+		},
+		{
+			"name":"Thelonius Monk",
+			"image","monk.jpg",
+			"info","Thelonious Sphere Monk[2] (October 10, 1917[3] – February 17, 1982) was an American jazz pianist and composer. He had a unique improvisational style and made numerous contributions to the standard jazz repertoire, including Round Midnight, Blue Monk, Straight, No Chaser, Ruby, My Dear, In Walked Bud, and Well, You Needn't. Monk is the second-most-recorded jazz composer after Duke Ellington, which is particularly remarkable as Ellington composed more than a thousand pieces, whereas Monk wrote about 70."
+		},
+		{
+			"name":"Charlie Parker",
+			"image","parker.jpg",
+			"info","Charles Parker Jr. (August 29, 1920 – March 12, 1955), also referred to by his nicknames Yardbird or simply Bird, was an American jazz saxophonist and composer. Parker was a highly influential soloist and leading figure in the development of bebop, a form of jazz characterized by fast tempos, virtuosic technique, and advanced harmonies. Parker was a blazingly fast virtuoso and introduced revolutionary harmonic ideas into jazz, including rapid passing chords, new variants of altered chords, and chord substitutions. Primarily a player of the alto saxophone, Bird's tone ranged from clean and penetrating to sweet and somber."
+		},
+		{
+			"name":"Nina Simone",
+			"image","nina.jpg",
+			"info","Eunice Kathleen Waymon (February 21, 1933 – April 21, 2003), known professionally as Nina Simone, was an American singer, songwriter, musician, arranger, and civil rights activist. Her music spanned a broad range of musical styles including classical, jazz, blues, folk, R&B, gospel, and pop."
+		}
+	]
+}

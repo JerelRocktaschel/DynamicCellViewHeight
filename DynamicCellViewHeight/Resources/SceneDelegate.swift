@@ -1,9 +1,5 @@
 //
-//  SceneDelegate.swift
-//  DynamicCellViewHeight
-//
-//  Created by Jerel Rocktaschel rMBP on 8/10/20.
-//  Copyright © 2020 HighScoreApps. All rights reserved.
+//  Copyright (c) 2020 Jerel Rocktaschel. All rights reserved.
 //
 
 import UIKit
@@ -11,13 +7,15 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
-
+    let storyboard = UIStoryboard(name: "Main", bundle: nil)
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
-        // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
-        // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-        guard let _ = (scene as? UIWindowScene) else { return }
+       guard let windowScene = scene as? UIWindowScene else { return }
+       let artistViewController = storyboard.instantiateViewController (withIdentifier: "ArtistViewController") as! ArtistViewController
+       artistViewController.artistNetworkService = ArtistService()
+       window = UIWindow(windowScene: windowScene)
+       window?.rootViewController = artistViewController
+       window?.makeKeyAndVisible()
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
